@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Sederhana</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Tentang</a>
+            <a href="#">Layanan</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="form-section">
+            <h2>Formulir Pendaftaran</h2>
+            <p>Silakan isi formulir di bawah ini untuk mendaftar.</p>
+            <form>
+                <label>Nama Lengkap:</label>
+                <input type="text" name="nama">
+
+                <label>Email:</label>
+                <input type="email" name="email">
+
+                <label>Password:</label>
+                <input type="password" name="password">
+
+                <label>Jenis Kelamin:</label>
+                <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                <input type="radio" name="gender" value="Perempuan"> Perempuan
+
+                <label class="hr">Hobi:</label>
+                <input type="checkbox" name="hobi" value="Musik"> Musik
+                <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+                <input type="checkbox" name="hobi" value="Membaca"> Membaca
+
+                <label class="hr">Pilih Kota:</label>
+                <select name="kota">
+                <option>Jakarta</option>
+                <option>Bandung</option>
+                <option>Surabaya</option>
+                </select>
+
+                <label>Pesan Tambahan:</label>
+                <textarea name="pesan" placeholder="Tulis pesan di sini..."></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.</p>
+        </aside>
+    </div>
+</body>
+</html>
