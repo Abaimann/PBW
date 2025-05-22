@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+}
+
+nav {
+    background-color: darkslategrey;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.grid-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-link {
+    position: relative;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar-link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #3B82F6;
+    transition: width 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #3B82F6;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+}
+
+.dot-green {
+    display: inline-block;
+    width: 0.75rem; /* w-3 */
+    height: 0.75rem; /* h-3 */
+    border-radius: 9999px; /* rounded-full */
+    background-color: #22c55e; /* bg-green-500 */
+    margin-right: 0.5rem; /* mr-2 */
+}
+
+.dot-red {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 9999px;
+    background-color: #ef4444; /* bg-red-500 */
+    margin-right: 0.5rem;
+}
+
