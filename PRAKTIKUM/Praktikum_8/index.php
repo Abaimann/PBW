@@ -55,6 +55,7 @@
                     <td><?php echo htmlspecialchars($row['stok']) ?></td>
                     <td>
                         <a href="form_edit.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="proses_hapus.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
                     </td>
                 </tr>
                 <?php endwhile; ?>
