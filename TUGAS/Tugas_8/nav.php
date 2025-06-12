@@ -25,12 +25,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="lihat_transaksi.php">Lihat Pesanan</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hapus_pelanggan.php">Hapus Pelanggan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hapus_buku.php">Hapus Buku</a>
-                </li>
             </ul>
         </div>
     </div>

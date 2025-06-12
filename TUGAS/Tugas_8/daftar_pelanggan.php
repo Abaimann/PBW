@@ -52,6 +52,7 @@
                     <td><?php echo $row['Email'] ?></td>
                     <td>0<?php echo htmlspecialchars($row['Telepon']) ?></td>
                     <td>
+                        <a href="proses_hapus_pelanggan.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
                         <a href="Form_edit_pelanggan.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-warning">Edit</a>
                     </td>
                 </tr>
