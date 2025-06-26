@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <a href="../../index.html">Landing page</a><br>
+    <a href="../../index.php">Landing page</a><br>
     <a href="Untitled-1.php">nilai predikat</a>
 
     <h2>Form Diskon Pembayaran Mahasiswa</h2>

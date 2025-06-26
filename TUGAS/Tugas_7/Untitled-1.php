@@ -4,7 +4,7 @@
     <title>Form Nilai Mahasiswa</title>
 </head>
 <body>
-<a href="../../index.html">Landing page</a><br>
+<a href="../../index.php">Landing page</a><br>
 <a href="Untitled-2.php">Diskon-pembayaran-mahasiswa</a>
 
 <form method="post" action="">

@@ -52,7 +52,7 @@
     </style>
 </head>
 <body>
-    <a href="../../index.html">Landing page</a>
+    <a href="../../index.php">Landing page</a>
     <div class="container">
         <h2>Perhitungan Total Pembelian (Dengan Array)</h2>
 
