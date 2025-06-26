@@ -5,6 +5,9 @@ body {
     padding: 20px;
 }
 
+a {
+    margin-left: 20px;
+}
 
 h1 {
     color: navy;

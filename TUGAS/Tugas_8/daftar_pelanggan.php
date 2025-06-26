@@ -1,6 +1,14 @@
+<?php session_start();
+    if (!isset($_SESSION['login_Un51k4'])) {
+        header("Location: login.php?message=" . urlencode("Mengakses fitur harus login dulu bro."));
+    exit;
+    }
+?>
+
 <?php include 'proses_daftar_pelanggan.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,8 +60,8 @@
                     <td><?php echo $row['Email'] ?></td>
                     <td>0<?php echo htmlspecialchars($row['Telepon']) ?></td>
                     <td>
-                        <a href="proses_hapus_pelanggan.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
                         <a href="Form_edit_pelanggan.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="proses_hapus_pelanggan.php?id=<?php echo $row['ID'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
                     </td>
                 </tr>
                 <?php endwhile; ?>
